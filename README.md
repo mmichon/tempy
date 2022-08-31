@@ -11,4 +11,4 @@ This project implements a remote temperature sensor with temperature and humidit
 
 ## Configuration
 1. Install PlatformIO.
-1. `pio run` in the `send` and `recv` directories for each of the units, respectively.
+1. `pio run -t upload` in the `send` and `recv` directories for each of the units, respectively.

@@ -48,7 +48,7 @@ x Encode/decode sensor values
 #define PIN_WAKEUP GPIO_NUM_0 // Tilt switch
 #define USE_DISPLAY true      // Whether to sleep the OLED or not
 #define DEBUG true            // Extra verbosity
-#define SEND_INTERVAL 1000L   // Send packets every 5 seconds
+#define SEND_INTERVAL 5000L   // Send packets every 5 seconds
 
 // SSD1306 display(OLED_I2C_ADDR, OLED_SDA, OLED_SCL); // 128x64 OLED Display on TTGO board
 // SHTSensor sht(SHTSensor::SHT3X);
